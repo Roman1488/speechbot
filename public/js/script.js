@@ -8,7 +8,7 @@ const outputBot = document.querySelector('.output-bot');
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
-recognition.lang = 'uk-UA';
+recognition.lang = 'uk';
 recognition.interimResults = false;
 recognition.maxAlternatives = 1;
 
